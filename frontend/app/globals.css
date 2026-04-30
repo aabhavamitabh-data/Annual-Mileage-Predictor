@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    border-color: hsl(216 34% 17%);
+  }
+  body {
+    background-color: #050810;
+    color: #e2e8f0;
+  }
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glow {
+  box-shadow: 0 0 40px rgba(59, 130, 246, 0.15);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

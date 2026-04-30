@@ -1,0 +1,22 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+
+# Models (too large for GitHub)
+models/*.pkl
+
+# Data (too large for GitHub)
+data/*.csv
+
+# Node
+mileage-predictor-ui/node_modules/
+mileage-predictor-ui/.next/
+
+# System
+.DS_Store
+Thumbs.db
+node_modules
