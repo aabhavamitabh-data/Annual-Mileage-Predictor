@@ -1,6 +1,7 @@
 # 🚗 Annual Mileage Predictor
 
 > AI-powered vehicle mileage prediction system for insurance premium pricing
+> LIVE DEMO : https://annual-mileage-predictor.vercel.app/
 
 ![ML](https://img.shields.io/badge/ML-XGBoost-blue)
 ![R2](https://img.shields.io/badge/R²%20Score-0.91-brightgreen)
